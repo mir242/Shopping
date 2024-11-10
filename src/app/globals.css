@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .header_top__icon_wrapper {
+        @apply bg-gray-200 rounded-full p-3 cursor-pointer hover:text-white hover:bg-gray-400
+    }
+
+    .navbar__link {
+
+
+
+
+        @apply relative text-gray-700 tracking-wider   cursor-pointer p-3  left-20;
+        background:
+            linear-gradient(to right, rgb(248, 145, 145) 0%, transparent 100%) top,
+            linear-gradient(to right, rgb(161, 243, 136) 0%, transparent 200%) bottom,
+            linear-gradient(to bottom, rgb(92, 162, 236) 0%, transparent 100%) left,
+            linear-gradient(to bottom, rgba(247, 50, 218, 0.886) 0%, transparent 100%) right;
+        background-repeat: no-repeat;
+        background-size: 0 1px, 0 1px, 1px 0, 1px 0;
+        transition: all 0.4s ease;
+    }
+
+    .navbar__link:hover {
+        color: gold;
+        transition: all0.4;
+        background-size: 100% 3px, 100% 3px, 3px 100%, 3px 100%;
+    }
+
+}
