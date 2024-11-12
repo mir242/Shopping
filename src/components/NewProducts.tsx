@@ -9,37 +9,37 @@ const productsData = [
   {
 
     img: '/images/quality/1 (1).webp',
-    title: 'set of clasically',
-    price: "8.2$",
-    desc: "sdf",
-    rating: 4
+    title: 'Classic watch',
+    price: "20.2$",
+    desc: "HOT OFFER",
+    rating: 3,
 
   },
   {
 
     img: '/images/quality/1 (2).webp',
-    title: 'set of clasically',
-    price: "8.2$",
-    desc: "sdf",
-    rating: 4
+    title: 'shoes clasically',
+    price: "19.9$",
+    desc: "offer",
+    rating: 4,
 
   },
   {
 
     img: '/images/quality/1 (3).webp',
-    title: 'set of clasically',
+    title: 'digital watch',
     price: "8.2$",
-    desc: "sdf",
-    rating: 4
+    desc: "offer",
+    rating: 3,
 
   },
   {
 
     img: '/images/quality/1 (4).webp',
-    title: 'set of clasically',
+    title: 'set of sports quality',
     price: "8.2$",
-    desc: "sdf",
-    rating: 4
+    desc: "hat",
+    rating: 1,
 
   },
   {
@@ -47,8 +47,8 @@ const productsData = [
     img: '/images/quality/1 (5).webp',
     title: 'set of clasically',
     price: "8.2$",
-    desc: "sdf",
-    rating: 4
+    desc: "pullover",
+    rating: 2,
 
   },
   {
@@ -56,17 +56,17 @@ const productsData = [
     img: '/images/quality/1 (6).webp',
     title: 'set of clasically',
     price: "8.2$",
-    desc: "sdf",
+    desc: "digital of watching",
     rating: 4
 
   },
   {
 
     img: '/images/quality/1 (7).webp',
-    title: 'set of clasically',
+    title: 'set of clasically ,hat',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 3
 
   },
   {
@@ -75,7 +75,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 1
 
   },
   {
@@ -84,7 +84,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 2
 
   },
   {
@@ -93,7 +93,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 3
 
   },
   {
@@ -111,7 +111,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 5
 
   },
   {
@@ -120,7 +120,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 5
 
   },
   {
@@ -129,7 +129,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 1
 
   },
   {
@@ -138,7 +138,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 2
 
   },
   {
@@ -147,7 +147,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 3
 
   },
   {
@@ -156,7 +156,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 3
 
   },
   {
@@ -165,7 +165,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 4
+    rating: 2
 
   },
   {
@@ -174,7 +174,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 5
+    rating: 2
 
   },
   {

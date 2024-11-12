@@ -19,7 +19,7 @@ const ProductCard: React.FC<PropsTypes> = ({ img, title, price, desc, rating }) 
     const genereateRating = (rating: number) => {
         switch (rating) {
 
-            
+
 
             case 1:
                 return (
@@ -33,7 +33,7 @@ const ProductCard: React.FC<PropsTypes> = ({ img, title, price, desc, rating }) 
 
 
                     </div>
-                ); 
+                );
             case 2:
                 return (
                     <div className='flex gap-1 text-[20px] text-yellow-400'>
@@ -46,7 +46,7 @@ const ProductCard: React.FC<PropsTypes> = ({ img, title, price, desc, rating }) 
 
 
                     </div>
-                ); 
+                );
             case 3:
                 return (
                     <div className='flex gap-1 text-[20px] text-yellow-400'>
@@ -59,7 +59,7 @@ const ProductCard: React.FC<PropsTypes> = ({ img, title, price, desc, rating }) 
 
 
                     </div>
-                ); 
+                );
             case 4:
                 return (
                     <div className='flex gap-1 text-[20px] text-yellow-400'>
@@ -72,7 +72,7 @@ const ProductCard: React.FC<PropsTypes> = ({ img, title, price, desc, rating }) 
 
 
                     </div>
-                ); 
+                );
             case 5:
                 return (
                     <div className='flex gap-1 text-[20px] text-yellow-400 hover:border-yellow-400'>
@@ -85,16 +85,16 @@ const ProductCard: React.FC<PropsTypes> = ({ img, title, price, desc, rating }) 
 
 
                     </div>
-                ); 
+                );
             case 1:
-              
+
 
 
 
                 break;
 
 
-          
+
 
 
                 return null;
@@ -109,22 +109,24 @@ const ProductCard: React.FC<PropsTypes> = ({ img, title, price, desc, rating }) 
     return (
         <div className='px-4 border-gray-200 rounded-xl max-w-[150px]'>
             <div>
-                <Image src={img} alt={title} width={120} height={200} className=' w-full h-auto object-cover rounded-xl' />
+                <Image src={img} alt={title} width={1000} height={300} className=' h-[128px] object-cover rounded-xl' />
 
 
 
 
             </div>
-            <div className="text-red-400 font-medium uppercase ">{title}</div>
-            <p className='text-gray-500 text-sm max-w-[150px]'>{desc}</p>
-<div>{genereateRating(rating)}</div>
+            <div className=' space-y-2 py-4'>
+                <div className="text-red-400 font-medium uppercase ">{title}</div>
+                <p className='text-gray-500 text-sm max-w-[150px]'>{desc}</p>
+                <div>{genereateRating(rating)}</div>
 
-<div className='font-bold flex gap-4'> ${price}
-    <del className='text-gray-400 text-xs line-through '>${parseInt(price)+50}.00</del>
-</div>
+                <div className='font-bold flex gap-4'> ${price}
+                    <del className='text-gray-400 text-xs line-through '>
+                        ${parseInt(price) + 50}.00</del>
+                </div>
 
 
-
+            </div>
         </div>
 
 
