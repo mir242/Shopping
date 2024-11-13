@@ -111,7 +111,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 5
+    rating: 5,
 
   },
   {
@@ -120,7 +120,7 @@ const productsData = [
     title: 'set of clasically',
     price: "8.2$",
     desc: "sdf",
-    rating: 5
+    rating: 5,
 
   },
   {
@@ -186,7 +186,7 @@ const productsData = [
     rating: 4
 
   },
- 
+
 
 
 ]
@@ -207,19 +207,19 @@ const productsData = [
 
 const NewProducts = () => {
   return (
- 
 
 
-    
+
+
 
     <div className='bg-white'>
 
 
-<header className=" rounded-sm product-header">
-  <div className="promo-text">
-  Don't miss our new products!  High quality at a reasonable price.
-  </div>
-</header>
+      <header className=" rounded-sm product-header">
+        <div className="promo-text">
+          Don't miss our new products!  High quality at a reasonable price.
+        </div>
+      </header>
 
 
 
@@ -228,7 +228,7 @@ const NewProducts = () => {
         <h2 className='font-medium'> NEW PRODUCT</h2>
         <div className='   grid grid-cols-1 place-items-center  sm:items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 xl:gap-x-10 xl:gap-y-10'>
           {productsData.map((item, index) => (
-            <div className="product-image "  key={index}>
+            <div className="product-image " key={index}>
               <ProductCard
                 img={item.img}
                 title={item.title}

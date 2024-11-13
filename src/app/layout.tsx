@@ -11,6 +11,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import NewProducts from "@/components/NewProducts";
 import Footer from "@/components/Footer";
 import Testimonial from "@/components/Testimonial";
+import ProductDetails from "@/components/ProductDetails/ProductDetails";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -43,7 +44,6 @@ export default function RootLayout({
       <Hero />
     <NewProducts/>
 <Testimonial/>
-
   <Footer/>
         {children}
       </body>
