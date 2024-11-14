@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { HiMiniStar } from "react-icons/hi2";
 import { HiOutlineStar } from "react-icons/hi2";
-import { useRouter } from 'next/router'
+
 
 
 

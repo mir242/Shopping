@@ -5,13 +5,12 @@ import Hero from "@/components/Hero";
 import HeaderMain from "@/components/HeaderMain";
 import HeaderTop from "@/components/HeaderTop";
 import NavBar from "@/components/NavBar";
-import Slide from "@/components/Slide";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import NewProducts from "@/components/NewProducts";
 import Footer from "@/components/Footer";
 import Testimonial from "@/components/Testimonial";
-import ProductDetails from "@/components/ProductDetails/ProductDetails";
+import MobNavBar from "@/components/MobNavBar";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -38,15 +37,22 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 
+
+
         <HeaderTop />
-        <HeaderMain />   
-      <NavBar/>
-      <Hero />
-    <NewProducts/>
-<Testimonial/>
-  <Footer/>
+        <HeaderMain />
+        <NavBar />
+        <Hero />
+        <NewProducts />
+        <Testimonial />
+        <MobNavBar />
+        <Footer />
+
+
+
         {children}
       </body>
+
     </html>
   );
 }

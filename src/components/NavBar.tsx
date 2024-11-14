@@ -14,9 +14,9 @@ const NavBar = () => {
                     </Link>
                     <Link className='navbar__link relative rounded-sm gap-8 px-4 py-4 ' href='#'> CATEGORIES
                     </Link>
-                    <Link className='navbar__link relative rounded-sm gap-8 px-4 py-4 ' href='#'> MEN'S 
+                    <Link className='navbar__link relative rounded-sm gap-8 px-4 py-4 ' href='#'> MEN`S 
                     </Link>
-                    <Link className='navbar__link relative rounded-sm gap-8 px-4 py-4 ' href='#'> WOMEN'S
+                    <Link className='navbar__link relative rounded-sm gap-8 px-4 py-4 ' href='#'> WOMEN`S
                     </Link>
                     <Link className='navbar__link relative rounded-sm gap-8 px-4 py-4 ' href='#'> FASHIONS
                     </Link>

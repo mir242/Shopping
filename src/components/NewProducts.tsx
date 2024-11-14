@@ -217,17 +217,16 @@ const NewProducts = () => {
 
       <header className=" rounded-sm product-header">
         <div className="promo-text">
-          Don't miss our new products!  High quality at a reasonable price.
+          Don`t miss our new products!  High quality at a reasonable price.
         </div>
       </header>
 
 
 
-
-      <div className='container pt-26  '>
-        <h2 className='font-medium'> NEW PRODUCT</h2>
-        <div className='   grid grid-cols-1 place-items-center  sm:items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 xl:gap-x-10 xl:gap-y-10'>
-          {productsData.map((item, index) => (
+      <div className='container mx-auto px-4 py-8'>
+  <h2 className='text-2xl font-bold mb-8 text-center'>NEW PRODUCTS</h2>
+  <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 justify-items-center'>
+{productsData.map((item, index) => (
             <div className="product-image " key={index}>
               <ProductCard
                 img={item.img}

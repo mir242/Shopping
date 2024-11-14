@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 @layer components {
     .header_top__icon_wrapper {
         @apply bg-gray-200 rounded-full p-3 cursor-pointer hover:text-white hover:bg-gray-400
@@ -33,10 +34,13 @@
 }
 
 .product-image {
-    margin-left: 250px;
+  @apply w-full max-w-[280px] mx-auto;
+
+  height: auto;
+
     top: 10px;
     width: 200px;  /* افزایش عرض برای ایجاد فاصله بیشتر */
-    height: 320px; /* افزایش ارتفاع برای ایجاد فاصله بیشتر */
+  /* height: 320px;  افزایش ارتفاع برای ایجاد فاصله بیشتر */
     margin-bottom: 30px;
     transition: transform 0.3s ease;
     border-radius: 10px;
